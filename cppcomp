@@ -1,0 +1,11 @@
+#! /bin/bash
+
+# A simple script that compiles C++ code into an executable
+# Usage: cppcompile <file> <executable>
+
+if (($# != 2))
+then
+	echo "Usage: cppcompile <file> <executable>" >&2
+else
+	g++ -Wall -Wfatal-errors $1 -o $2
+fi

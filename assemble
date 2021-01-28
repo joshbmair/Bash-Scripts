@@ -1,0 +1,17 @@
+#! /bin/bash
+
+# Script for compiling an Assembly program into an executable
+# Usage: assemble <file>
+
+if (($# < 1))
+then
+	echo "Too few arguments. Usage: assemble <file>" >&2
+
+elif (($# > 1))
+then
+	echo "Too many arguments. Usage: assemble <file>" >&2
+
+else
+	~cs270/lc3tools/lc3as $1
+fi
+

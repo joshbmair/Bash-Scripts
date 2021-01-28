@@ -1,0 +1,17 @@
+#! /bin/bash
+
+# Script for checking in a programming assignment for CS 270
+# Usage: checkin <assignment> <file>
+
+if (($# < 2))
+then
+	echo "Usage: checkin <assignment> <file>"
+elif (($# > 2))
+then
+	echo "Usage: checkin <assignment> <file>"
+else
+	assignment=$1
+	file=$2
+
+	~cs270/bin/checkin $assignment $file 
+fi

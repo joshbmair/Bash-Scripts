@@ -1,0 +1,16 @@
+#! /bin/bash
+
+# A script shortcut for running the LC-3 simulator in the CS 270 directory
+# Usage: lc3sim lc3sim [<object file>|<symbol file>]
+#        lc3sim [-s <script file>]
+#        lc3sim -h
+
+if (($# == 2))
+then
+	~cs270/lc3tools/lc3sim $1 $2
+elif (($# == 1))
+then
+	~cs270/lc3tools/lc3sim $1
+else
+	~cs270/lc3tools/lc3sim
+fi

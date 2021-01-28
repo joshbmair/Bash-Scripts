@@ -1,0 +1,5 @@
+#! /bin/bash
+
+# Script shortcut for starting up the GUI version of the LC-3 simulator
+
+~cs270/lc3tools/lc3sim-tk &
