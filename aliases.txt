@@ -1,0 +1,13 @@
+# Compiler aliases
+alias ccomp='~/.scripts/ccomp'
+alias cppcomp='~/.scripts/cppcomp'
+
+# CS 270 aliases
+alias assemble='~/.scripts/assemble'
+alias checkin270='~/.scripts/checkin270'
+alias lc3sim='~/.scripts/lc3sim'
+alias lc3gui='~/.scripts/lc3gui'
+
+# CS 320 aliases
+alias checkin='~/.scripts/checkin320'
+
